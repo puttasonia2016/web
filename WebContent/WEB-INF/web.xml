@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>webapp</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Myservlet</display-name>
+		<servlet-name>Myservlet</servlet-name>
+		<servlet-class>com.ojas.Myservlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoginServlet</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.ojas.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoginServlet1</display-name>
+		<servlet-name>LoginServlet1</servlet-name>
+		<servlet-class>com.ojas.LoginServlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>CalServlet</display-name>
+		<servlet-name>CalServlet</servlet-name>
+		<servlet-class>com.ojas.CalServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>CalServlet1</display-name>
+		<servlet-name>CalServlet1</servlet-name>
+		<servlet-class>com.ojas.CalServlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>FashionServlet</display-name>
+		<servlet-name>FashionServlet</servlet-name>
+		<servlet-class>com.ojas.FashionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>UserServlet</display-name>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>com.ojas.UserServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>UserServlet1</display-name>
+		<servlet-name>UserServlet1</servlet-name>
+		<servlet-class>com.ojas.UserServlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>HobbyServlet</display-name>
+		<servlet-name>HobbyServlet</servlet-name>
+		<servlet-class>com.ojas.HobbyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>UserformServlet</display-name>
+		<servlet-name>UserformServlet</servlet-name>
+		<servlet-class>com.ojas.UserformServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>PrimeServlet</display-name>
+		<servlet-name>PrimeServlet</servlet-name>
+		<servlet-class>com.ojas.PrimeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletDemo</display-name>
+		<servlet-name>ServletDemo</servlet-name>
+		<servlet-class>com.ojas.ServletDemo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ContextDemo1</display-name>
+		<servlet-name>ContextDemo1</servlet-name>
+		<servlet-class>com.ojas.ContextDemo1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ContextDemo2</display-name>
+		<servlet-name>ContextDemo2</servlet-name>
+		<servlet-class>com.ojas.ContextDemo2</servlet-class>
+	</servlet>
+	
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>ConfigDemo2</display-name>
+		<servlet-name>ConfigDemo2</servlet-name>
+		<servlet-class>com.ojas.ConfigDemo2</servlet-class>
+		<init-param>
+			<description>
+			</description>
+			<param-name>cname</param-name>
+			<param-value>JAVA,.NET,TESTING,ORACLE,PHP</param-value>
+		</init-param>
+	</servlet>
+	
+<servlet-mapping>
+		<servlet-name>Myservlet</servlet-name>
+		<url-pattern>/Myservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet1</servlet-name>
+		<url-pattern>/LoginServlet1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CalServlet</servlet-name>
+		<url-pattern>/CalServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CalServlet1</servlet-name>
+		<url-pattern>/CalServlet1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FashionServlet</servlet-name>
+		<url-pattern>/FashionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/UserServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserServlet1</servlet-name>
+		<url-pattern>/UserServlet1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HobbyServlet</servlet-name>
+		<url-pattern>/HobbyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserformServlet</servlet-name>
+		<url-pattern>/UserformServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PrimeServlet</servlet-name>
+		<url-pattern>/PrimeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletDemo</servlet-name>
+		<url-pattern>/ServletDemo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ContextDemo1</servlet-name>
+		<url-pattern>/ContextDemo1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ContextDemo2</servlet-name>
+		<url-pattern>/ContextDemo2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConfigDemo</servlet-name>
+		<url-pattern>/ConfigDemo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConfigDemo1</servlet-name>
+		<url-pattern>/ConfigDemo1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConfigDemo2</servlet-name>
+		<url-pattern>/ConfigDemo2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConfigDemo3</servlet-name>
+		<url-pattern>/ConfigDemo3</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		
+	</welcome-file-list>
+	<context-param>
+<param-name>dname</param-name>
+<param-value>com.mysql.jdbc.Driver</param-value>
+</context-param>
+<context-param>
+<param-name>url</param-name>
+<param-value>jdbc:mysql://localhost:3306/sony</param-value>
+</context-param>
+<context-param>
+<param-name>user</param-name>
+<param-value>root</param-value>
+</context-param>
+<context-param>
+<param-name>password</param-name>
+<param-value>root</param-value>
+</context-param>
+</web-app>
